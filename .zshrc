@@ -9,19 +9,14 @@ export ZPLUG_HOME=~/.zplug
 
 zplug "zplug/zplug", hook-build:"zplug --self-manage"
 
-# Enhanced cd
 zplug "b4b4r07/enhancd", use:init.sh
-
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
-
 zplug "djui/alias-tips"
-
 zplug "plugins/asdf", from:oh-my-zsh
-zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/zsh_reload", from:oh-my-zsh
 zplug "plugins/screen", from:oh-my-zsh
 zplug "plugins/kubectl", from:oh-my-zsh
