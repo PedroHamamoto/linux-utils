@@ -36,10 +36,6 @@ ZSH_THEME="robbyrussell"
 
 source $ZSH/oh-my-zsh.sh
 
-alias glsm='git pull --recurse-submodules origin master'
-alias kon='kubeon'
-alias koff='kubeoff'
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
 
