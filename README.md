@@ -7,5 +7,5 @@ A repository containing some linux utilities.
     3. Replace the content of your ~/.zshrc with the [.zshrc](./.zshrc)
 2. List all gradle processes
     ```shell
-    ps -ef | grep -v grep | grep gradle | awk '{print $2 " \\"}'
+    ps -ef | grep -v grep | grep gradle | awk '{ result = result ( NR==1 ? "" : " ") $2 } END{ print result }'
     ```
